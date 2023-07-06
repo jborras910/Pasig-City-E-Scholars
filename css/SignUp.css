@@ -1,0 +1,243 @@
+@-webkit-keyframes fade-in-bck {
+  0% {
+    -webkit-transform: translateZ(80px);
+    transform: translateZ(80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bck {
+  0% {
+    -webkit-transform: translateZ(80px);
+    transform: translateZ(80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+.form {
+  margin: 30px auto !important;
+  padding: 25px !important;
+  background-color: #003067 !important;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+  width: 47% !important;
+
+  border-radius: 10px !important;
+  -webkit-animation: fade-in-bck 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-bck 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.form .form-title img {
+  width: 150px;
+  padding-bottom: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.form .form-title {
+  color: white;
+
+  text-align: center;
+}
+.form h2 {
+  color: #fcd116 !important;
+  border-bottom: 3px solid #fcd116 !important;
+  font-size: 25px !important;
+
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  color: grey !important;
+  opacity: 1;
+}
+.form-select {
+  width: 100%;
+  padding: 14px !important;
+  font-size: 18px !important;
+
+  border: none;
+  outline: none;
+
+  color: black;
+  box-shadow: 0 2px 0px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-select option {
+  font-size: 17px !important;
+  color: black !important;
+}
+
+.form-group label {
+  margin-bottom: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+
+  display: block;
+}
+.form-check {
+  padding: 0 30px !important;
+}
+.form-check p {
+  font-size: 20px !important;
+}
+.field-icon {
+  float: right;
+  margin-right: 20px;
+  margin-top: -32px !important;
+  position: relative;
+  font-size: 17px;
+  color: black !important;
+  font-weight: 900;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.form-group {
+  text-align: left;
+  position: relative;
+  font-family: Arial, FontAwesome;
+}
+
+.btn {
+  padding: 6px !important;
+
+  margin: 0 auto !important;
+}
+
+.register {
+  background: #fcd116 !important;
+
+  font-size: 18px !important;
+  font-weight: 600 !important;
+
+  box-shadow: 0 9px 9px rgba(0, 0, 0, 0.5);
+}
+.cancel {
+  background: #b00020 !important;
+  color: wheat !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+
+  box-shadow: 0 9px 9px rgba(0, 0, 0, 0.5);
+}
+
+.form-check-label a {
+  text-decoration: underline !important;
+  color: #fcd116 !important;
+}
+
+.verification-form h5 {
+  color: #fff !important;
+  font-size: 18px !important;
+}
+
+.verification-form h5 a {
+  text-decoration: underline !important;
+  color: #fcd116 !important;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    background-image: none !important;
+
+    background-color: #003067 !important;
+  }
+  .form {
+    padding: 0 15px !important;
+
+    box-shadow: none;
+    width: 100% !important;
+  }
+  .form .form-title img {
+    width: 140px;
+    padding-bottom: 20px;
+  }
+  .form .form-title h4 {
+    font-size: 20px !important;
+    font-weight: 600;
+  }
+  .form h2 {
+    color: #fcd116 !important;
+
+    border-bottom: 5px solid #fcd116 !important;
+    font-size: 20px !important;
+    padding: 10px 0 !important;
+  }
+  .form .form-title {
+    margin-bottom: 20px;
+  }
+  .field-icon {
+    margin-right: 17px;
+    margin-top: -29px;
+
+    font-size: 15px;
+  }
+
+  .form-group input,
+  .form-select,
+  .form-select option {
+    width: 100%;
+    padding: 10px !important;
+    font-weight: 600;
+
+    font-size: 15px !important;
+  }
+  .form-check p {
+    font-size: 14px !important;
+  }
+
+  .form-group {
+    margin: 5px 0;
+  }
+
+  .form-check-label {
+    font-size: 15px !important;
+  }
+
+  .form-group label {
+    font-size: 15px !important;
+    color: white;
+    font-weight: 600;
+  }
+
+  .btn {
+    padding: 10px !important;
+
+    font-size: 15px !important;
+    width: 100% !important;
+  }
+  .alert {
+    font-size: 25px !important;
+  }
+  .underline {
+    font-size: 15.2px !important;
+    font-weight: bold !important;
+  }
+  .verification-form {
+    text-align: center;
+  }
+  .verification-form h5 {
+    font-size: 18px !important;
+  }
+  label {
+    display: none !important;
+  }
+  .form-group i {
+    top: 15 !important;
+    right: 30px !important;
+    font-size: 30px !important;
+  }
+}

@@ -1,0 +1,123 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+/* .header {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 150px;
+} */
+
+.static-navbar {
+  background: linear-gradient(
+      0deg,
+      rgba(1, 64, 107, 0.67),
+      rgba(1, 64, 107, 0.67)
+    ),
+    url("../Assets/Background.gif");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.4s !important;
+  padding: 15px 165px !important;
+
+  width: 100%;
+  margin-bottom: 0px !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  font-size: 30px !important;
+  outline: none !important;
+}
+.navbar-toggler span {
+  color: aliceblue !important;
+  font-weight: 600 !important;
+}
+.nav-link {
+  font-size: 17px !important;
+  font-weight: bold !important;
+  text-shadow: 2px 2px #333;
+  padding: 10px !important;
+  color: aliceblue !important;
+  margin: 0 10px !important;
+}
+.nav-link:hover {
+  color: #fcd116 !important;
+  transition: 0.5s !important;
+}
+
+.actived {
+  color: #fcd116 !important;
+  border-bottom: 2px solid #fcd116;
+}
+.actived2 {
+  border-bottom: 2px solid #fcd116 !important;
+  color: #fcd116 !important;
+}
+.img-profile {
+  width: 30px !important;
+}
+.navbar-brand {
+  color: aliceblue !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+.navbar-brand img {
+  margin-left: 20px !important;
+  width: 90px !important;
+
+  padding: 10px !important;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.scholarship {
+  margin-left: 3px !important;
+  border-left: 2px solid aliceblue;
+}
+.profile {
+  background-color: transparent !important;
+}
+
+.login,
+.profile {
+  border: 2px solid aliceblue;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2) !important;
+  background: #dd3e2b;
+}
+.login .nav-link,
+.profile .nav-link {
+  color: white !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .static-navbar,
+  .scroll-nav {
+    padding: 10px !important;
+    text-align: left !important;
+  }
+  .navbar-brand img {
+    width: 80px !important;
+  }
+
+  .img-profile {
+    width: 35px !important;
+  }
+
+  .actived2 {
+    border-bottom: none !important;
+  }
+
+  .profile,
+  .login,
+  .scholarship {
+    text-align: center;
+
+    margin: 10px 0px !important;
+    border: 2px solid white;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2) !important;
+  }
+  .navbar-brand img {
+    margin-left: 6px !important;
+  }
+}

@@ -1,0 +1,200 @@
+.main {
+  margin: 4% auto;
+  padding: none !important;
+}
+
+.form-container {
+  width: 100% !important;
+}
+
+.progress-box {
+  margin: 10px auto;
+}
+
+.form {
+  padding: 50px 25px;
+  width: 40%;
+  margin: 5px auto;
+
+  height: auto;
+  background-color: white !important;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.form h5 {
+  font-size: 15px !important;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 20px !important;
+}
+
+.alert {
+  background-color: #01406b !important;
+  color: white;
+  text-align: center;
+  padding-bottom: 0px !important;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.alert h5 {
+  padding-bottom: 5px !important;
+}
+
+.form input,
+.form select {
+  border: none;
+  padding: 10px;
+  border: 2px solid grey;
+  background: transparent;
+  outline: none;
+  width: auto;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+.form select {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.full_name {
+  text-transform: capitalize;
+}
+
+.progress-barr {
+  display: flex;
+  width: 100%;
+}
+
+.progress-barr .step {
+  text-align: center;
+  width: 100%;
+}
+
+.progress-barr .step p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+}
+
+.progress-barr .step span {
+  font-weight: 500;
+  line-height: 25px;
+  top: 7px;
+  position: absolute;
+  left: 49%;
+  transform: translateX(-50%);
+}
+
+.progress-barr .step .bullet {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  border: 3px solid #01406b !important;
+  background-color: #01406b;
+  color: white;
+
+  display: inline-block;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.progress-barr .step .fa-check {
+  display: none;
+}
+
+.progress-barr .step:last-child .bullet:before,
+.progress-barr .step:last-child .bullet:after {
+  display: none;
+}
+
+.progress-barr .step .bullet:before,
+.progress-barr .step .bullet:after {
+  position: absolute;
+  content: "";
+  bottom: 18px;
+  right: -135px;
+  height: 5px;
+  width: 135px;
+  background: #01406b !important;
+}
+
+.done {
+  background-color: #4bb543 !important;
+  color: white !important;
+}
+
+.notactive {
+  padding: 25px 20px !important;
+  width: 100% !important;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .form {
+    width: 100%;
+    border: none;
+  }
+
+  .userdata {
+    text-align: center;
+  }
+
+  body {
+    background: white !important;
+  }
+
+  .progress-barr .step .bullet:before,
+  .progress-barr .step .bullet:after {
+    position: absolute;
+    content: "";
+    bottom: 12px;
+    right: -57px;
+    height: 2px;
+    width: 57px;
+  }
+  .progress-barr .step p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  .progress-barr .step span {
+    font-weight: 500;
+    line-height: 15px;
+    top: 6px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .progress-barr .step .bullet {
+    position: relative;
+    height: 34px;
+    width: 34px;
+    border: 3px solid #01406b !important;
+
+    display: inline-block;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .progress-barr .step .fa-check {
+    display: none;
+  }
+
+  .notactive {
+    width: 100% !important;
+  }
+}
