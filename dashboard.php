@@ -413,6 +413,38 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1000px) {
 
 
@@ -513,6 +545,8 @@ body {
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+<link rel="stylesheet" type="text/css" href="css/timeline.css?<?php echo time(); ?>" />
 
 
 <div class="hero-image container-fluid main">
@@ -696,10 +730,109 @@ body {
 
 
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
     <img src="Assets/Frame 6.png" style="width:100%" alt="">
     <br>
     <br>
+</div> -->
+
+
+
+<div class="container-fluid">
+    <div class="container mb-5 ">
+        <div class="timeline-header">
+            <h1><span>How</span> to Apply</h1>
+            <p>By following the instructions provided, students can increase their chances of receiving a scholarship
+                and
+                fulfilling their educational goals.</p>
+        </div>
+        <div class="text-center text-light arrows">
+            <h4 class="">Start</h4>
+            <i class="fa-solid fa-arrow-down mb-2"></i>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-row" data-aos="fade-left" data-aos-duration="1000">
+                <div class="timeline-time">
+                    <h3>1st</h3>
+                    <p>Fill-Up Application Form</p>
+
+                </div>
+                <div class="timeline-content text-light">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <p>The process of applying for a scholarship. New applicants apply for the scholarship for the first
+                        time, while renewal applicants seek to renew it. </p>
+                </div>
+            </div>
+
+            <div class="timeline-row" data-aos="fade-right" data-aos-duration="1000">
+                <div class="timeline-time">
+                    <h3>2nd</h3>
+                    <p>Fill-Up Application Form</p>
+
+                </div>
+                <div class="timeline-content text-light">
+                    <i class="fa-regular fa-address-book"></i>
+
+                    <p>Filling out the scholarship application form is a crucial step in applying for scholarship. It
+                        requires providing personal, academic, and financial information, along with any required
+                        supporting documents.</p>
+                </div>
+            </div>
+
+            <div class="timeline-row" data-aos="fade-left" data-aos-duration="1000">
+                <div class="timeline-time">
+                    <h3>3rd</h3>
+                    <p>Uploading of Requirements</p>
+
+                </div>
+                <div class="timeline-content text-light">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <p>This procedure involves providing scanned copies of mandatory documents, including an enrollment
+                        form, transcripts, essays, Certification of Residency, and financial statements.</p>
+                </div>
+            </div>
+
+            <div class="timeline-row" data-aos="fade-right" data-aos-duration="1000">
+                <div class="timeline-time">
+                    <h3>4th</h3>
+                    <p>If Scholar Applicant is Approved</p>
+
+                </div>
+                <div class="timeline-content text-light">
+                    <i class="fa-regular fa-circle-check"></i>
+                    <p>Scholar applicants who are approved for a scholarship will receive a notification via email. Once
+                        the scholarship evaluator reviews the applications, they will send an email to successful
+                        applicants informing them of their approval.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-row" data-aos="fade-left" data-aos-duration="1000">
+                <div class="timeline-time ">
+                    <h3>5th</h3>
+                    <p>Scholarship Application Disapproved</p>
+                </div>
+                <div class="timeline-content text-light">
+                    <i class="fa-solid fa-arrow-rotate-left"></i>
+                    <p>If a scholarship application is disapproved due to missing or incomplete requirements, the
+                        applicant may re-submit the necessary documents for reconsideration. Additionally, the applicant
+                        will receive an email detailing the reason for the disapproval. Depending on the reason for
+                        disapproval, the applicant may be able to re-apply for the scholarship.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-light arrows">
+            <i class="fa-solid fa-arrow-down"></i>
+            <h4 class="">End</h4>
+        </div>
+    </div>
 </div>
 
 

@@ -27,7 +27,7 @@ $mail->Username = 'jborras910@gmail.com';
 $mail->Password = 'gathrquaabwitxdb';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
-$mail->setFrom('jborras910@gmail.com', $first_Name);
+$mail->setFrom('no-reply@pasigscholar.co', $first_Name);
 $mail->addAddress($email);
 $mail->isHTML(true);
 $mail->Subject = 'Email verification from PASIG E-SCHOLAR';
@@ -91,7 +91,7 @@ style='
       color: black;
       text-decoration: none;
     '
-    href='http://localhost/Capstone_Project/verify_email.php?token=$verify_token'
+    href='http://localhost/Pasig City E-Scholars/verify_email.php?token=$verify_token'
     >Activate My Account</a
   >
   <br />
@@ -181,7 +181,7 @@ function send_password_reset($get_name, $get_email,$token){
           color: black;
           text-decoration: none;
         '
-        href='http://localhost/Capstone_Project/password-change.php?token=$token&email=$get_email'
+        href='http://localhost/Pasig City E-Scholars/password-change.php?token=$token&email=$get_email'
         >Reset Password Link</a
       >
       <br />

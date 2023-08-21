@@ -22,7 +22,7 @@ function resubmit_email($applicants_email, $applicant_full_name, $resubmit_messa
   $mail->Password = 'gathrquaabwitxdb';
   $mail->SMTPSecure = 'ssl';
   $mail->Port = 465;
-  $mail->setFrom('jborras910@gmail.com', $applicant_full_name);
+  $mail->setFrom('no-reply@pasigscholar.co', $applicant_full_name);
   $mail->addAddress($applicants_email);
   $mail->isHTML(true);
   $mail->Subject = 'SCHOLARSHIP APPLICANTION PROGRESS';
@@ -87,7 +87,7 @@ function resubmit_email($applicants_email, $applicant_full_name, $resubmit_messa
         color: white;
         text-decoration: none;
       '
-      href='http://localhost/Capstone_Project/login.php'
+      href='http://localhost/Pasig City E-Scholars/login.php'
       >View Application Here</a
     >
     <br />
@@ -183,7 +183,7 @@ function sendemail_approved($applicants_email, $full_name){
         color: white;
         text-decoration: none;
       '
-      href='http://localhost/Capstone_Project/login.php'
+      href='http://localhost/Pasig City E-Scholars/login.php'
       >View Application Here</a
     >
     <br />
@@ -279,7 +279,7 @@ function sendemail_disapproval($applicants_email, $dissaproved_message, $full_na
           color: white;
           text-decoration: none;
         '
-        href='http://localhost/Capstone_Project/login.php'
+        href='http://localhost/Pasig City E-Scholars/login.php'
         >View Application Here</a
       >
       <br />
@@ -378,7 +378,7 @@ text-transform: uppercase;
   color: white;
   text-decoration: none;
 '
-    href='http://localhost/Capstone_Project/verify_email.php?token=$verify_token'
+    href='http://localhost/Pasig City E-Scholars/verify_email.php?token=$verify_token'
     >Activate My Account</a
   >
   <br />
